@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tasty Trails</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      margin:0;
+      padding:0;
+    }
+    header {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px 0
+      
+    }
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius:15px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius:15px;
+      text-align: center;
+    }
+    .card img {
+      border-radius:15px;
+      text-align:center;
+
+    }
+    .card h3 {
+     margin:20px 0 5px;
+     border-radius:15px;
+     align:center;
+     padding:10px;
+      
+    }
+    .card p {
+      margin: 20px;
+     border-radius:15px;
+     align:center;
+     padding:10px;
+
+    }
+    .order-button {
+      background-color: black;
+      color: white;
+      padding: 10px 0;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .contact {
+      background-color: black;
+      color: white;
+      padding: 10px 0;
+      text-align: left;
+    }
+    .contact label, .contact input {
+      display: block;
+      margin: 10px 0;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"] {
+      width: 100%;
+      padding: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+    .contact input[type="submit"] {
+      background-color: yellow;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tasty Trails</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Recipe</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Repeating cards-->
+  <div class="card">
+    <img src="C:\Users\sandra\OneDrive\Pictures\burger123.jpg" alt="burger" >
+ <h3>Plate african food</h3>
+    <p>Something which is very Delecious</p>
+    <button class="order-button">Order Now</button>
+  </div>
+
+  <div class="card">
+    <img src="C:\Users\sandra\Downloads\beaf steakkkkkkk.jpg" alt="steak" >
+ <h3>Plate african food</h3>
+    <p>Something which is very Delecious</p>
+    <button class="order-button">Order Now</button>
+  </div>
+
+  <div class="card">
+    <img src="C:\Users\sandra\Downloads\biri123.jpg" alt="Plate African Food">
+    <h3>Plate african food</h3>
+    <p>Something which is very Delecious</p>
+    <button class="order-button">Order Now</button>
+  </div>
+
+  <div class="card"> 
+    <img src="C:\Users\sandra\Downloads\porotaa.jpg" alt="Plate African Food">
+    <h3>Plate african food</h3>
+    <p>Something which is very Delecious</p>
+    <button class="order-button">Order Now</button>
+  </div>
+
+  <div class="card">
+    <img src="C:\Users\sandra\Downloads\fried rixce5.jpg" alt="Fried rice"> 
+    <h3>Plate african food</h3> 
+    <p>Something which is very Delecious</p>
+    <button class="order-button">Order Now</button>
+  </div>
+
+  <!-- Contact Us Form -->
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+
+      <label for="age">Age:</label>
+      <input type="text" id="age" placeholder="Enter your age" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" />
+
+      <input type="submit" value="Send" />
+    </form>
+  </div>
+
+</body>
+</html>
